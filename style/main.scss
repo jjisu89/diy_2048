@@ -125,6 +125,7 @@ a {
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 strong {
@@ -461,19 +462,20 @@ hr {
   margin-bottom: 0;
 }
 
-.restart-button {
+.restart-button, .change-caption-button {
   @include button;
   display: block;
   text-align: center;
+  padding: 10px 15px;
   float: right;
 }
 
-.change-caption-button {
-  @include button;
-  display: block;
-  text-align: center;
-  float: left;
-}
+// .change-caption-button {
+//   @include button;
+//   display: block;
+//   text-align: center;
+//   float: left;
+// }
 
 .game-explanation {
   margin-top: 50px;
