@@ -463,16 +463,14 @@ hr {
 
 .restart-button {
   @include button;
-  // display: block;
-  display: flex;
+  display: block;
   text-align: center;
   float: right;
 }
 
 .change-caption-button {
   @include button;
-  // display: block;
-  flex: 1;
+  display: block;
   text-align: center;
   float: left;
 }
