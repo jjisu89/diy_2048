@@ -30,7 +30,7 @@ GameManager.prototype.restart = function () {
 
 // Change captions
 GameManager.prototype.changeCaption = function () {
-  var newCaptions = prompt("변경하고 싶은 문구를 11개 넣으세요.(구분자는 쉼표)\n예시. 취준,인턴,사원,대리,과장,차장,부장,상무,전무,사장,회장", "취준,인턴,사원,대리,과장,차장,부장,상무,전무,사장,회장");
+  var newCaptions = prompt("변경하고 싶은 문구를 12~13개 넣으세요.(구분자는 쉼표)\n예시. 취준,인턴,사원,대리,과장,차장,부장,상무,전무,사장,회장", "취준,인턴,사원,대리,과장,차장,부장,상무,전무,사장,회장");
   // alert("ㅋㅋㅋㅋㅋ 게임을 새로 시작한다")
   window.location.reload();
   this.storageManager.clearGameState();
